@@ -1,0 +1,152 @@
+{
+  "SHS27k": {
+    "random": {
+      "pre_epochs": 50,
+      "pre_batch": 32,
+      "hid": 256,
+      "depth": 2,
+      "heads": 4,
+      "dropout_pre": 0.1,
+
+      "batch_size": 2048,
+      "epochs": 500,
+      "hidden": 1024,
+      "dropout": 0.5,
+      "n_layers": 2,
+      "graph_only_train": true,
+      "test_use_all_graph": true
+    },
+    "dfs": {
+      "pre_epochs": 50,
+      "pre_batch": 32,
+      "hid": 256,
+      "depth": 2,
+      "heads": 4,
+      "dropout_pre": 0.1,
+
+      "batch_size": 2048,
+      "epochs": 500,
+      "hidden": 1024,
+      "dropout": 0.5,
+      "n_layers": 3,
+      "graph_only_train": true,
+      "test_use_all_graph": true
+    },
+    "bfs": {
+      "pre_epochs": 50,
+      "pre_batch": 32,
+      "hid": 256,
+      "depth": 2,
+      "heads": 4,
+      "dropout_pre": 0.1,
+
+      "batch_size": 2048,
+      "epochs": 500,
+      "hidden": 1024,
+      "dropout": 0.5,
+      "n_layers": 3,
+      "graph_only_train": true,
+      "test_use_all_graph": true
+    }
+  },
+  "SHS148k": {
+    "random": {
+      "pre_epochs": 50,
+      "pre_batch": 64,
+      "hid": 256,
+      "depth": 2,
+      "heads": 4,
+      "dropout_pre": 0.1,
+
+      "batch_size": 2048,
+      "epochs": 500,
+      "hidden": 1024,
+      "dropout": 0.5,
+      "n_layers": 2,
+      "graph_only_train": true,
+      "test_use_all_graph": true
+    },
+    "dfs": {
+      "pre_epochs": 50,
+      "pre_batch": 64,
+      "hid": 256,
+      "depth": 2,
+      "heads": 4,
+      "dropout_pre": 0.1,
+
+      "batch_size": 2048,
+      "epochs": 500,
+      "hidden": 1024,
+      "dropout": 0.5,
+      "n_layers": 2,
+      "graph_only_train": true,
+      "test_use_all_graph": true
+    },
+    "bfs": {
+      "pre_epochs": 50,
+      "pre_batch": 64,
+      "hid": 256,
+      "depth": 2,
+      "heads": 4,
+      "dropout_pre": 0.1,
+
+      "batch_size": 2048,
+      "epochs": 500,
+      "hidden": 1024,
+      "dropout": 0.5,
+      "n_layers": 3,
+      "graph_only_train": true,
+      "test_use_all_graph": true
+    }
+  },
+  "STRING": {
+    "random": {
+      "pre_epochs": 50,
+      "pre_batch": 64,
+      "hid": 256,
+      "depth": 2,
+      "heads": 4,
+      "dropout_pre": 0.1,
+
+      "batch_size": 2048,
+      "epochs": 500,
+      "hidden": 1024,
+      "dropout": 0.5,
+      "n_layers": 2,
+      "graph_only_train": true,
+      "test_use_all_graph": true
+    },
+    "dfs": {
+      "pre_epochs": 50,
+      "pre_batch": 64,
+      "hid": 256,
+      "depth": 2,
+      "heads": 4,
+      "dropout_pre": 0.1,
+
+      "batch_size": 2048,
+      "epochs": 500,
+      "hidden": 1024,
+      "dropout": 0.5,
+      "n_layers": 2,
+      "graph_only_train": true,
+      "test_use_all_graph": true
+    },
+    "bfs": {
+      "pre_epochs": 50,
+      "pre_batch": 64,
+      "hid": 256,
+      "depth": 2,
+      "heads": 4,
+      "dropout_pre": 0.1,
+
+      "batch_size": 2048,
+      "epochs": 500,
+      "hidden": 1024,
+      "dropout": 0.5,
+      "n_layers": 2,
+      "graph_only_train": true,
+      "test_use_all_graph": true
+    }
+  }
+}
